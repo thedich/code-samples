@@ -1,8 +1,8 @@
 # Flytable-React
-`ru:` Табло удаленности самолетов от аэропорта Домодедово (DME).
+`ru:` Табло удаленности самолетов от аэропорта Домодедово (DME).\
 Данные в режиме реального времени: https://data-live.flightradar24.com
 
-`en:` The aircraft remoteness from Domodedovo Airport (DME).
+`en:` The aircraft remoteness from Domodedovo Airport (DME).\
 Data in real time: https://data-live.flightradar24.com
 
 ## Install & Run
