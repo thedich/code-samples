@@ -1,0 +1,148 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #f3f3f3;
+  margin: 0;
+  padding: 0; }
+
+.toptitles {
+  white-space: nowrap;
+  width: 100%;
+  position: fixed;
+  background-color: #7e5cf5;
+  left: 0;
+  float: left;
+  z-index: 1; }
+
+.title_item {
+  font-family: "Jura";
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  width: 130px;
+  height: 35px;
+  padding: 10px 0px 0px 10px;
+  margin-right: 1px; }
+
+.item_dis {
+  cursor: pointer; }
+  .item_dis:hover {
+    opacity: 0.7; }
+
+.items_holder {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  top: 45px; }
+
+.item_holder {
+  width: 100%;
+  white-space: nowrap;
+  max-width: 100%;
+  float: left;
+  background-color: #180b30;
+  border-bottom: 1px solid #5f5d5d; }
+
+.item {
+  font-family: "Text Me One", "sans-serif";
+  font-size: medium;
+  text-align: center;
+  display: inline-block;
+  height: 30px;
+  width: 130px;
+  padding: 10px 0 0 10px;
+  margin-right: 1px; }
+
+.expannd_item {
+  cursor: pointer; }
+
+.color_white {
+  color: #ffffff; }
+
+.flytable__expandinfo {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  word-wrap: break-word;
+  white-space: normal; }
+
+.flytable__exp__hol {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-top: 0;
+  border-top: 1px solid #d7d7d7;
+  color: #ffffff;
+  background: #d7d7d7;
+  font-family: "Jura", "sans-serif";
+  font-size: 15px; }
+
+.flytable___leditem {
+  position: relative;
+  display: inline-block;
+  padding: 3px 6px 3px 6px;
+  background: black;
+  color: white;
+  margin-right: 1px;
+  border: 1px solid #3e3e3e;
+  height: 17px;
+  overflow: hidden; }
+
+.flytable ._leditem_changed {
+  background: #582cf2; }
+
+.flytable .ledval {
+  position: relative;
+  top: 0;
+  background: black;
+  width: 10px; }
+
+.flytable .anim {
+  -webkit-animation: animTest 1s forwards;
+          animation: animTest 1s forwards; }
+
+@-webkit-keyframes animTest {
+  50% {
+    top: 3px; }
+  100% {
+    top: 3px; } }
+
+@keyframes animTest {
+  50% {
+    top: 3px; }
+  100% {
+    top: 3px; } }
+
+.flytable .linear:before {
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear; }
+
+.flytable .linear:before {
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear; }
+
+.flytable .leditem__newval {
+  position: absolute;
+  top: 30px; }
+
+.flytable .info_loader {
+  display: none;
+  width: 10px;
+  height: 10px;
+  background-color: aqua;
+  position: relative;
+  left: 10px;
+  -webkit-animation: animOpasity 1s infinite;
+          animation: animOpasity 1s infinite; }
+
+.flytable ._state_loading {
+  display: inline-block; }
+
+@-webkit-keyframes animOpasity {
+  50% {
+    opacity: .5; } }
+
+@keyframes animOpasity {
+  50% {
+    opacity: .5; } }

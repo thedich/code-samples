@@ -1,0 +1,54 @@
+{
+  "name": "SPA",
+  "version": "1.0.0",
+  "description": "blank SPA",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/vdemot/react.git"
+  },
+  "scripts": {
+    "build": "rm -rf dist/* && webpack --config webpack/conf.js --env.site=spa",
+    "dev": "webpack-dev-server --config webpack/conf.js --env.site=spa"
+  },
+  "author": "DemoS",
+  "license": "ISC",
+  "dependencies": {
+    "bourbon": "^5.0.0-beta.8",
+    "classnames": "^2.2.5",
+    "history": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.3",
+    "@types/history": "^4.6.2",
+    "@types/react": "16.0.31",
+    "@types/react-dom": "16.0.3",
+    "@types/react-router": "4.0.20",
+    "@types/react-router-dom": "4.2.3",
+    "@types/semantic-ui": "^2.2.6",
+    "@types/webpack": "^3.8.0",
+    "autoprefixer": "^7.2.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.9",
+    "sass-loader": "^6.0.6",
+    "semantic-ui-react": "^0.77.1",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^3.2.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "2.9.7",
+    "webpack-shell-plugin": "^0.5.0"
+  }
+}

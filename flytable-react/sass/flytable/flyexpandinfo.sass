@@ -1,0 +1,77 @@
+.flytable
+	&__expandinfo
+		width: 100%
+		overflow: hidden
+		height: 100%
+		word-wrap: break-word
+		white-space: normal
+
+	&__exp__hol
+		padding-top: 10px
+		padding-bottom: 10px
+		padding-left: 15px
+		margin-top: 0
+		border-top: 1px solid #d7d7d7
+		color: #ffffff
+		background: #d7d7d7
+		font-family: "Jura", "sans-serif"
+		font-size: 15px
+
+	&___leditem
+		position: relative
+		display: inline-block
+		padding: 3px 6px 3px 6px
+		background: black
+		color: white
+		margin-right: 1px
+		border: 1px solid #3e3e3e
+		height: 17px
+		overflow: hidden
+
+	._leditem_changed
+		background: darken(#7e5cf5, 10%)
+
+	.ledval
+		position: relative
+		top: 0
+		background: black
+		width: 10px
+
+	.anim
+		animation: animTest 1s forwards
+
+	@keyframes animTest
+		50%
+			top: 3px
+
+		100%
+			top: 3px
+
+
+	.linear:before
+		animation-timing-function: linear
+
+	.linear:before
+		animation-timing-function: linear
+
+	.leditem__newval
+		position: absolute
+		top: 30px
+
+	.info_loader
+		display: none
+		width: 10px
+		height: 10px
+		background-color: aqua
+		position: relative
+		left: 10px
+		animation: animOpasity 1s infinite
+
+
+	._state_loading
+		display: inline-block
+
+
+	@keyframes animOpasity
+		50%
+			opacity: .5
