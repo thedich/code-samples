@@ -1,3 +1,4 @@
 .gitignore
 .idea/
 code-samples-repo.iml
+flytable-react/node_modules
