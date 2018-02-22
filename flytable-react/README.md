@@ -18,3 +18,5 @@ npm run dev
 `ru:` Если будут проблемы с кроссдоменными запросами, воспользуйтесь расширением для Chrome: https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim
 
 `en:` If there are problems with cross-domain requests, please use the extension for Chrome: https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim
+
+![Flytable](https://raw.githubusercontent.com/thedich/thedich.github.io/master/self/flytable-anim.gif)
