@@ -51,10 +51,6 @@ export class LedItem extends React.Component<LedItemProps, LedItemState>
 			    version: this.state.version + 1
 		    });
 	    }
-	    
-        //this.setState({
-	    //    leditem: nextProps.leditem
-        //});
     }
 	
 	shouldComponentUpdate(nextProps: LedItemProps, nextState: LedItemState)
@@ -64,7 +60,6 @@ export class LedItem extends React.Component<LedItemProps, LedItemState>
 
 	render(): JSX.Element
 	{
-		// className={classes( 'flytable___leditem', this.state.changed && '_leditem_changed')};
 		return (
 			<div className="flytable___leditem">
 				<div className="leditem__val ledval">

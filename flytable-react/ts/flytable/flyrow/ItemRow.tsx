@@ -45,8 +45,6 @@ export class ItemRow extends React.Component<ItemRowProps, ItemRowState>
         if ( nextProps.itemsData.hash != this.props.itemsData.hash ) {
             changed = true;
 
-            // console.log(changed);
-
             setTimeout(() => {
                 this.setState({
                    changed: false
@@ -92,13 +90,10 @@ export class ItemRow extends React.Component<ItemRowProps, ItemRowState>
 					    infoloaded: true,
 					    isloading: false
 				    });
-				
-				    //console.log("boardId data:" + JSON.stringify(infodata));
 			    });
 			
 		    }, 1000);
-		    
-		    //return;
+
 	    } else
 	    {
 		    this.nameExButton = "развернуть";
@@ -107,9 +102,9 @@ export class ItemRow extends React.Component<ItemRowProps, ItemRowState>
 			    version: this.state.version + 1
 		    });
 	    }
-	    
+
     	console.log("expand click!");
-    	
+
     }
     
 	render(): JSX.Element

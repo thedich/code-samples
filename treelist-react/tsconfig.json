@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"lib": ["es2015", "es2016.array.include", "dom"],
+		"sourceMap": true,
+		"jsx": "react",
+		"removeComments": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"noUnusedParameters": false,
+		"suppressImplicitAnyIndexErrors": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "./ts"
+	}
+}

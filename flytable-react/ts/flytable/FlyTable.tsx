@@ -3,14 +3,12 @@ import {Head} from 'flytable/head/Head';
 import {FlyRows} from 'flytable/flyrow/FlyRows';
 import {FlightManager} from "../FlightManager";
 
-interface FlyTableProps { flydata:Fly[]}
-interface FlyTableState { flydata: Fly[]}
+interface FlyTableProps { flydata:Fly[] }
+interface FlyTableState { flydata: Fly[] }
 
 const Path:string     = 'https://data-live.flightradar24.com/zones/fcgi/feed.js?bounds=56.84,55.27,33.48,41.48';
 const PathInfo:string = 'https://data-live.flightradar24.com/clickhandler/?version=1.5&flight='; // + board id
 const nameMap         = [ 'mode S', 'lat'    , 'lon'    , '??', '??'   , 'скорость (km/ч)',  'высота (м)', '??'     , 'Тип самолета', '??'   , '??'      , 'прилет' , 'вылет', '??' , '??' , '??' , '??'  , '??', 'удаленнось от домодедово'];
-
-
 const filterSign      = "??";
 
 export interface ServerFlyFormat {

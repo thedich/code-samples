@@ -1,5 +1,5 @@
 {
-  "name": "flytable-react",
+  "name": "treelist-react",
   "version": "1.0.0",
   "description": "Code Sample",
   "main": "index.js",
@@ -12,6 +12,7 @@
   "dependencies": {
     "bourbon": "^5.0.0-beta.8",
     "classnames": "^2.2.5",
+    "font-awesome": "^4.7",
     "history": "^4.7.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
