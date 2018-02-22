@@ -3,3 +3,5 @@
 code-samples-repo.iml
 flytable-react/node_modules
 /.gitignore
+treelist-react/node_modules
+npm-debug.log
