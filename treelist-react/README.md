@@ -24,4 +24,4 @@ npm install
 npm run build
 npm run dev
 ```
-![Treelist React component](https://sun1-3.userapi.com/c834501/u1490270/docs/d7/3d7eb5da6465/treelist-anim.gif?extra=8Ua1q7aHqYpEY0PzivWo6abKJOZKvvKitMbvdKU8pdXD_WBln6A9gyQv5gK7lD7F9YSkMjRCXJGlAyfXab8851RW1N1-_-kJHZcZ5aoPCxYMNdEDxqjOnj2A62-ulLCoTO6R7nI)
+![Treelist React component](https://raw.githubusercontent.com/thedich/thedich.github.io/master/self/treelist-anim.gif)
