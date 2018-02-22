@@ -1,5 +1,5 @@
 # TreeList-React
-`en:` React component of a tree-like list:\
+`en:` React component of a tree-like list:
 * support for hiding the root node (showRoot)
 * opening the tree to the selected item (focusId)
 * expanding the tree to the selected elements (defExpandIds)
@@ -7,7 +7,7 @@
 * navigation support by arrows
 * support for Drag & Drop
 
-`ru:` Реактовский компонент деревовидного списка:\
+`ru:` Реактовский компонент деревовидного списка:
 * поддержка скрытия корневого узла (showRoot)
 * pаскрытие дерева до выбраного элемента (focusId)
 * раскрытие дерева до выбраных элементов (defExpandIds)
