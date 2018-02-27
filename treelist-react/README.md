@@ -3,7 +3,7 @@
 * support for hiding the root node (showRoot)
 * opening the tree to the selected item (focusId)
 * expanding the tree to the selected elements (defExpandIds)
-* use font (font-awesome)
+* using font (font-awesome)
 * navigation support by arrows
 * support for Drag & Drop
 
@@ -13,7 +13,7 @@
 * раскрытие дерева до выбраных элементов (defExpandIds)
 * использование шрифта (font-awesome)
 * поддержка навигации стрелками
-* поддержка Drag&Drop
+* поддержка Drag & Drop
 
 ## Install & Run
 

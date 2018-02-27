@@ -1,0 +1,30 @@
+{
+  "name": "player",
+  "version": "0.0.1",
+  "description": "code sample",
+  "main": "AppPlayer",
+  "scripts": {
+    "server-jq": "SERVER_PATH=/build/ node server.js",
+    "dev-jq": "webpack --config webpack.config.js --progress --inline --colors --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-runtime": "^6.3.13",
+    "brfs": "^1.4.1",
+    "json-loader": "^0.5.4"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "jquery": "^3.2.1",
+    "connect": "^3.6.2",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "serve-static": "^1.12.3",
+    "style-loader": "^0.18.2",
+    "transform-loader": "^0.2.3",
+    "webpack": "^1.15.0"
+  }
+}

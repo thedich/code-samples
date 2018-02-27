@@ -1,0 +1,86 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.playholder1
+{
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border: 1px solid#ff0000;
+}
+
+.playholder2
+{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    border: 1px solid#0000ff;
+}
+
+.playholder3
+{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    top: 300px;
+    left: 100px;
+    border: 1px solid#00ffff;
+}
+
+.playslideholder
+{
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+.tableplay
+{
+    display: table;
+    height: 100%;
+}
+
+.cell
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn_control
+{
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.playbg
+{
+     background: url("../assets/playbg.png");
+}
+
+.pausebg
+{
+    background: url("../assets/pausebg.png");
+}
+
+.mutebg
+{
+    background: url("../assets/unmutebg.png");
+}
+
+.unmutebg
+{
+    background: url("../assets/mutebg.png");
+}
